@@ -33,7 +33,7 @@ max_exceeded: silent
 trigger:
   - platform: state
     entity_id: !input activated
-    to: 'on'
+    to: 'True'
 
 variables:
   activated: !input activated
